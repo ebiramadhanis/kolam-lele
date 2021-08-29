@@ -44,13 +44,32 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyCqb_rgSITHxH2Tc4F3z-J0wYknaE5jknE",
+          authDomain: "monitoring-kolam-6427d.firebaseapp.com",
+          databaseURL: "https://monitoring-kolam-6427d-default-rtdb.firebaseio.com",
+          projectId: "monitoring-kolam-6427d",
+          storageBucket: "monitoring-kolam-6427d.appspot.com",
+          messagingSenderId: "320829538262",
+          appId: "1:320829538262:web:01d5fe6bd9eec07dd0ae77",
+          measurementId: "G-3J90Q31N3S"
+        },
+        services: {
+          auth: true, // Just as example. Can be any other service.
+          database: true
+        }
+      }
+    ]
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
