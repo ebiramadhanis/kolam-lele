@@ -9,8 +9,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - kolam-lele',
-    title: 'kolam-lele',
+    titleTemplate: 'Monitoring Kolam',
+    title: 'Monitoring Kolam',
     htmlAttrs: {
       lang: 'en'
     },
