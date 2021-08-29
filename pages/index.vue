@@ -2,7 +2,7 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6" class="d-flex justify-center align-center">
       <v-row>
-        <v-col cols="6" sm="6" offset-sm="3">
+        <v-col cols="12" sm="6">
           <v-card height="200px">
             <v-card-title class="blue white--text">
               <span class="text-h5">Ph Air</span>
@@ -18,7 +18,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="6" sm="6" offset-sm="3">
+        <v-col cols="12" sm="6">
           <v-card height="200px">
             <v-card-title class="blue white--text">
               <span class="text-h5">Servo</span>
